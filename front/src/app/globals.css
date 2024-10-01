@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--foreground-rgb: 255, 255, 255;
+	--background-start-rgb: 34, 34, 34;
+	--background-end-rgb: 64, 64, 64;
+	--primary-color: #4caf50;
+	--secondary-color: #3c3c3c;
+	--border-radius: 10px;
+	--shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+		135deg,
+		rgba(var(--background-start-rgb), 1) 0%,
+		rgba(var(--background-end-rgb), 1) 100%
+	);
+	color: rgba(var(--foreground-rgb), 1);
+}
